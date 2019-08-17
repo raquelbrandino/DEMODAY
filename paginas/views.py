@@ -6,3 +6,6 @@ def home(request):
 
 def ferramentas(request):
     return render(request, 'ferramentas.html')
+
+def cursos(request):
+    return render(request, 'cursos.html')

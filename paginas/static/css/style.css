@@ -11,7 +11,7 @@ body::-webkit-scrollbar{
 header{
     background-color: black;
     height: 6vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,4 +61,46 @@ section div h2{
 
 section div p{
     font-family: 'Noto Sans', sans-serif;
+}
+
+footer{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redesSociais{
+    height: 8vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redeSocial{
+    background-color: rgb(181, 176, 176);
+    border-radius: 24px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.redeSocial:hover{
+    background-color: rgb(233, 204, 41);
+    opacity: 1.0;
+}  
+
+.redeSocial a{
+
+}
+.redeSocial a img{
+    height: 20px;
+    width: 20px;
 }
