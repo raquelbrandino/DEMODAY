@@ -10,16 +10,17 @@
     <title> {% block titulo %} {% endblock %} </title>
 </head>
 <body>
-    <header>
-                <p>NOME DO SITE</p>
-                <nav>
-                    <a href="/">Início</a>
-                    <a href="ferramentas">Ferramentas</a>
-                    <a href="">Plataformas</a>
-                    <a href="">Cursos</a>
-                    <a href="">Cadastro</a>
-                </nav>
-            
+    <header>   
+        <a href="/">
+            <img id="logo" src="static\images\logo_idea.png" alt="logo do site">
+            <p> CoderStart </p>
+        </a>
+        <nav>
+            <a href="ferramentas">Ferramentas</a>
+            <a href="">Plataformas</a>
+            <a href="">Cursos</a>
+            <a href="">Cadastro</a>
+        </nav>
     </header>
     
     {% block conteudo %} 

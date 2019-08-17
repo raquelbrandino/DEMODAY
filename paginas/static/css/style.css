@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: auto;
 }
 
 body::-webkit-scrollbar{
@@ -18,10 +17,24 @@ header{
     align-items: center;
 }
 
-header p{
-    color: whitesmoke;
-    margin-left: 10px;
+header a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 1vh;
+}
+
+header a p{
+    color: rgb(233, 204, 41);
     padding: 0;
+    margin: 0;
     font-family: 'Roboto Slab', serif;
 }   
 
