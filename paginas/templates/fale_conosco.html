@@ -8,4 +8,29 @@
 
 {% block conteudo %}
 
+<div id="faleconosco">
+    
+    <div id="faleconosco2">
+        <img id="conversation_icon" src="\static\images\conversation.png" alt="balões de conversa">
+        <h2>Fale Conosco!</h2>
+    </div>
+
+    <p>Adoraríamos ouvir suas dúvidas e sugestões. Sinta-se a vontade para escrever nos campos abaixo.</p>
+
+</div>
+
+<form id="formulario" method="POST" action="/fale_conosco">
+
+    {% csrf_token %}
+    
+    <span>Nome:</span> <input type="text" name="nome" placeholder="Digite seu nome">
+
+    <span>E-mail:</span> <input type="email" name="email" placeholder="Digite seu e-mail">
+
+    <span>Escreva para nós aqui:</span> <textarea rows="20" cols="75" maxlength="1200" name="comentarios" placeholder="Digite sua dúvida ou sugestão"> </textarea>
+
+    <input type="submit" value="Enviar">
+
+</form>
+
 {% endblock %}

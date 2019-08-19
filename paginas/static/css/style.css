@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body::-webkit-scrollbar{
@@ -49,25 +50,22 @@ header nav{
 header nav a{
     text-decoration: none;
     color: whitesmoke;
-    font-family: 'Noto Sans', sans-serif;
 }
 
 section div{
     padding: 10px;
 }
-section div h2{
-    font-family: 'Roboto Slab', serif;
-}
 
-section div p{
-    font-family: 'Noto Sans', sans-serif;
+h2{
+    font-family: 'Roboto Slab', serif;
 }
 
 footer{
     background-color: black;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -97,10 +95,46 @@ footer{
     opacity: 1.0;
 }  
 
-.redeSocial a{
-
-}
 .redeSocial a img{
     height: 20px;
     width: 20px;
+}
+
+footer p{
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+    background-color:  rgb(233, 204, 41);
+}
+
+#conversation_icon{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+#faleconosco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#faleconosco2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
 }
