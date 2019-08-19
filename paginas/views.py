@@ -9,3 +9,6 @@ def ferramentas(request):
 
 def cursos(request):
     return render(request, 'cursos.html')
+
+def fale_conosco(request):
+    return render(request, 'fale_conosco.html')
