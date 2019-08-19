@@ -158,16 +158,11 @@ input{
 .allFerra{
     display: block;
     text-align: center;
-    
-
 }
+
 .vscFerra{
     background-color:  rgb(233, 204, 41);
     padding: 20px 100px;
-}
-.vscFerra:hover{
-    background-color:rgb(233, 213, 102);
-    opacity: 0.4;
 }
 
 .htmlFerra{
@@ -175,17 +170,9 @@ input{
     padding: 20px 100px;
 }
 
-.htmlFerra:hover{
-    background-color:rgb(233, 213, 102);
-    opacity: 0.4;
-}
 .cssFerra{
     background-color:  rgb(233, 204, 41);
     padding: 20px 100px;
-}
-.cssFerra:hover{
-    background-color:rgb(233, 213, 102);
-    opacity: 0.4;
 }
 
 .scriptFerra{
@@ -194,27 +181,13 @@ input{
     
 }
 
-.scriptFerra:hover{
-    background-color:rgb(233, 213, 102);
-    opacity: 0.4;
-}
-
 .pyFerra{
     background-color:  rgb(233, 204, 41);
     padding: 20px 100px;
-}
-.pyFerra:hover{
-    background-color:rgb(233, 213, 102);
-    opacity: 0.4;
 }
 
 .djFerra{
     background-color: white;
     padding: 20px 100px;
     
-}
-
-.djFerra:hover{
-    background-color:rgb(233, 213, 102);
-    opacity: 0.4;
 }
