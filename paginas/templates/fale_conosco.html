@@ -18,7 +18,7 @@
     <p>Adoraríamos ouvir suas dúvidas e sugestões. Sinta-se a vontade para escrever nos campos abaixo.</p>
 
 </div>
-
+ 
 <form id="formulario" method="POST" action="/fale_conosco">
 
     {% csrf_token %}
@@ -27,9 +27,11 @@
 
     <span>E-mail:</span> <input type="email" name="email" placeholder="Digite seu e-mail">
 
-    <span>Escreva para nós aqui:</span> <textarea rows="20" cols="75" maxlength="1200" name="comentarios" placeholder="Digite sua dúvida ou sugestão"> </textarea>
+    <span>Escreva para nós aqui:</span> <textarea rows="20" cols="75" maxlength="1200" name="comentario" placeholder="Digite sua dúvida ou sugestão"> </textarea>
 
     <input type="submit" value="Enviar">
+
+    {{msg}}
 
 </form>
 
