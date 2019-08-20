@@ -191,3 +191,58 @@ input{
     padding: 20px 100px;
     
 }
+
+/* CSS DE CURSOS */
+
+.titCur{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.presencialCur h2{ 
+    background-color: rgb(233, 204, 41);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+.presencialCur div h4{ 
+    background-color: rgb(233, 204, 41);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.presencialCur div {
+    text-align: center;
+    margin: 0 90px;
+}
+
+.onCur h2{ 
+    background-color: rgb(233, 204, 41);
+    text-align: center;
+    padding: 17px;
+    margin: 0;
+
+}
+
+.onCur div{
+    text-align: center;
+    margin: 0 90px;
+} 
+
+.imgCur{
+    width: 30%;
+}
+.mastrCur{
+    background-color: black;
+    align-items: center;
+}
+
+.presencialCur h5{
+    font-size: larger;
+}
